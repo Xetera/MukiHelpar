@@ -80,7 +80,7 @@ class Moderation:
             return
         if len(ctx.message.mentions)==1:
             try:
-                await self.bot.send_message(discord.User(id=ctx.message.mentions[0].id), "You have been kicked from Miki server. You can rejoin via <https://discord.gg/veUGD9t>; just don't make the same mistake again or it will lead to a ban.")
+                await self.bot.send_message(discord.User(id=ctx.message.mentions[0].id), "You have been kicked from Miki server. You can rejoin via <https://discord.gg/39Xpj7K>; just don't make the same mistake again or it will lead to a ban.")
             except:
                 pass
             try:
